@@ -11,11 +11,11 @@ active: home
     <h3><a href="{{ post.url }}" title="Permalink">{{ post.title }}</a></h3>
     {{ post.content }}
     <footer>
-    <time datetime="{{ post.date | xmlschema }}">posted on: {{ post.date | date: "%d-%m-%Y" }} {{ post.time }}</time>
+    posted on <time datetime="{{ post.date | xmlschema }}">{{ post.date | date: "%d-%m-%Y" }} {{ post.time }}</time> by <span class="author">Honza</span>
     </footer>
   </article>
 {% endfor %}		
-</section>
+
 <footer>
   {% if paginator.next_page %}
     <a href="/page{{ paginator.next_page }}/">&larr; Older</a>
@@ -27,4 +27,7 @@ active: home
       <a href="/page{{ paginator.previous_page }}">Newer &rarr;</a>
     {% endif %}
   {% endif %}
-</footer>
+  </footer>
+
+</section>
+

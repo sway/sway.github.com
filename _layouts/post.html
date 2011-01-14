@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<article>
+<h3>{{ page.title }}</h3>
+ posted on <time datetime="{{ page.date | xmlschema }}">{{ page.date | date: "%d-%m-%Y" }} {{ page.time }}</time> by <span class="author">Honza</span> | <a rel="nofollow" href="{{ post.url }}"
+	  title="Permalink">&#9881;</a>
+  {{ content }}
+</article>
+<footer>
+  {% if page.previous %}
+    <a href="{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; {{ page.previous.title }}</a>
+  {% endif %}
+  {% if page.next %}
+    <a href="{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }} &rarr;</a>
+  {% endif %}
+</footer>
+

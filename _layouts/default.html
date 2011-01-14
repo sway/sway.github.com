@@ -2,34 +2,33 @@
 <html>
 <head>
 <title>{{ page.title }}</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="/style.css">
 
 <link href='http://fonts.googleapis.com/css?family=Philosopher' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 
 </head>
 
 <body>
 <header>
-	<h1 class="tk-museo">{{ page.title }}</h1>
-	<h2>{{ page.subtitle }}<h2>
+	<h1>My Egoistic</h1>
+	<h2>git commit -m "me, my ego and git"<h2>
 </header>
 <nav>
 	<ul>
-	{% if page.active == 'home' %}
-  		<li class="active">Home</li>
-		<li>About</li>
-	{% elsif page.active == 'about' %}
-  		<li>Home</li>
-		<li class="active">About</li>
-	{% endif %}
+		<li class="{% if page.active == 'home' %} active {% endif %}">
+			<a href="/">Home</a>
+		</li>
+		<li class="{% if page.active == 'about' %} active {% endif %}">
+			<a href="/about.html">About</a>
+		</li>
 	</ul>
 </nav>
 
 {{ content }}
 
 <footer>
-
+powered by <span class="hilite">git</span> + <span class="hilite">jekyll</span> + <span class="hilite">github</span><br />
+&copy; 2011
 </footer>
 
 </body>
