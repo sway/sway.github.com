@@ -1,0 +1,8 @@
+---
+exclude: ['Makefile', 'README', '_design']
+markdown: maruku
+paginate: 5
+permalink: pretty
+pygments: true
+safe: true
+

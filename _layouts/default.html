@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{ page.title }}</title>
+<link rel="stylesheet" href="style.css">
+
+<link href='http://fonts.googleapis.com/css?family=Philosopher' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+<header>
+	<h1 class="tk-museo">{{ page.title }}</h1>
+	<h2>{{ page.subtitle }}<h2>
+</header>
+<nav>
+	<ul>
+	{% if page.active == 'home' %}
+  		<li class="active">Home</li>
+		<li>About</li>
+	{% elsif page.active == 'about' %}
+  		<li>Home</li>
+		<li class="active">About</li>
+	{% endif %}
+	</ul>
+</nav>
+
+{{ content }}
+
+<footer>
+
+</footer>
+
+</body>
+</html>
+
