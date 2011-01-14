@@ -1,9 +1,30 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>sway @ GitHub</title>
-	</head>
-	<body>
-		<h1>Here be lions...</h1>
-	</body>
-</html>	
+---
+layout: default
+title: My Egoistic
+subtitle: git commit -m "me, my ego and git"
+active: home
+---
+
+<section id="posts">
+{% for post in paginator.posts %}
+  <article>
+    <h3><a href="{{ post.url }}" title="Permalink">{{ post.title }}</a></h3>
+    {{ post.content }}
+    <footer>
+    <time datetime="{{ post.date | xmlschema }}">posted on: {{ post.date | date: "%d-%m-%Y" }} {{ post.time }}</time>
+    </footer>
+  </article>
+{% endfor %}		
+</section>
+<footer>
+  {% if paginator.next_page %}
+    <a href="/page{{ paginator.next_page }}/">&larr; Older</a>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+      <a href="/">Newer &rarr;</a>
+    {% else %}
+      <a href="/page{{ paginator.previous_page }}">Newer &rarr;</a>
+    {% endif %}
+  {% endif %}
+</footer>
