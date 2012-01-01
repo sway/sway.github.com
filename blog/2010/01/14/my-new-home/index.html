@@ -7,18 +7,43 @@
 	<meta name="author" content="honza">
 	
 	
-	<meta name="description" content="This is my new home. The virtual one, of course. It is no longer hosted on a standalone hosting, but I have decided to fully outsource all the &hellip;">
+	<meta name="description" content="My new home! posted on 14-01-2010 by Honza This is my new home. The virtual one, of course. It is no longer hosted on a standalone hosting, but I &hellip;">
 	
 
 	
 	<link rel="canonical" href="http://sway.github.com/blog/2010/01/14/my-new-home">
 	<link href="/favicon.png" rel="icon">
+	
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-	<script src="/javascripts/modernizr-2.0.js"></script>
+	
+	<script src="https://www.google.com/jsapi?key=ABQIAAAA0F-_ro9tk72StBDZf_iGIRRA4kEF9BZzwH94K8P4DYxKRx7FaRQ2BmC07jg2Ic7lNVAyryYP0U66tQ" type="text/javascript"></script>
 	<script src="/javascripts/ender.js"></script>
 	<script src="/javascripts/octopress.js" type="text/javascript"></script>
-	<link href="/atom.xml" rel="alternate" title="my egoistic" type="application/atom+xml">
 	
+	<script type="text/javascript">
+		google.load("jquery", "1"); 
+	</script>
+	
+	<script>
+		function colorize(element) {	
+			var colors = [
+				['#042572', '#41B2B8', '#99C500', '#FF9801', '#CD1807'],
+				['#00A0B0', '#6A4A3C', '#CC333F', '#EB6841', '#EDC951'],
+				['#A3A948', '#EDB92E', '#F85931', '#CE1836', '#009989']
+			];		
+			var palette	= Math.floor(Math.random()*colors.length);
+			var number 	= colors[palette].length;			
+			var i = Math.floor(Math.random()*number);
+			
+			$.each($(element), function() {
+				$(this).css("color", colors[palette][i]);
+				i = (i+1)%(number);
+			});
+		
+		}	
+	</script>
+		
+	<link href="/atom.xml" rel="alternate" title="my egoistic" type="application/atom+xml">
 	<link href='http://fonts.googleapis.com/css?family=Terminal+Dosis:700|Cabin' rel='stylesheet' type='text/css'>
 
 	
@@ -42,8 +67,8 @@
 <div id="topbar">
 	<nav>
 		<ul>
-			<li>Blog</li>
-			<li>About</li>
+			<li><a href="/">Home</a></li>
+			<li><a href="/blog">Blog</a></li>
 			<li>Seoul Exchange</li>
 		</ul>
 	</nav>
@@ -60,17 +85,22 @@
 <div>
 <article class="hentry" role="article">
   	
+<header>
     
 		<h3 class="entry-title">My new home!</h3>
     
     
       <p class="meta">
         posted on <time datetime="14.">14-01-2010</time> by <span class="author">Honza</span>
-        
-         | <a href="#disqus_thread">Comments</a>
-        
       </p>
+      
+    	
+         <div class="commentsnr">
+         	<a  href="#disqus_thread"></a>
+         </div>
+        
     
+</header>
 
 
 <div class="entry-content"><p>This is my new home. The virtual one, of course. It is no longer hosted on a standalone hosting, but I have decided to fully outsource all the service I use
@@ -91,31 +121,24 @@ account, it is a kind of a scaledown. But well, as we grow older, we need less s
 </div>
 
 
-  	<footer>
-	
-	<div class="sharing">
-  
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://sway.github.com/blog/2010/01/14/my-new-home/" data-via="swaycz" data-counturl="http://sway.github.com/blog/2010/01/14/my-new-home/" >Tweet</a>
-  
-  
-  
-</div>
-
-	
+  	<footer class="meta">
+	<div class="paginate">
 	
 	
 		<a class="next" href="/blog/2010/01/21/im-the-IT-guy/" title="I'm the IT guy">I'm the IT guy &rarr;</a>
 	    
+	</div>
   	</footer>
 </article>
 
 </div>
 
 </section>
-<footer>
-powered by <span class="hilite">git</span> + <span class="hilite">jekyll</span> + <span class="hilite">github</span><br />
+<footer class="bottomline">
+powered by <span class="hilite">git</span> + <span class="hilite">octopress</span> + <span class="hilite">github</span><br />
 &copy; 2011
 </footer>
+
 
 
 <script type="text/javascript">
@@ -134,21 +157,9 @@ powered by <span class="hilite">git</span> + <span class="hilite">jekyll</span> 
 
 
 
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
+<script>
+colorize(".colorize");
+</script>
 </body>
 </html>
 

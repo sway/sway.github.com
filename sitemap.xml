@@ -2,22 +2,30 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://sway.github.com/blog/2010/01/14/my-new-home/</loc>
-        <lastmod>2011-12-30T14:43:34+01:00</lastmod>
+        <lastmod>2012-01-01T13:32:39+01:00</lastmod>
     </url>
     <url>
         <loc>http://sway.github.com/blog/2010/01/21/im-the-IT-guy/</loc>
-        <lastmod>2011-12-30T14:43:34+01:00</lastmod>
+        <lastmod>2012-01-01T13:32:39+01:00</lastmod>
     </url>
     <url>
         <loc>http://sway.github.com/blog/2011/12/23/transition/</loc>
-        <lastmod>2011-12-30T14:36:04+01:00</lastmod>
+        <lastmod>2012-01-01T13:32:39+01:00</lastmod>
     </url>
     <url>
         <loc>http://sway.github.com/blog/archives/</loc>
-        <lastmod>2011-12-30T14:39:17+01:00</lastmod>
+        <lastmod>2012-01-01T13:32:39+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://sway.github.com/blog/</loc>
+        <lastmod>2012-01-01T13:32:39+01:00</lastmod>
     </url>
     <url>
         <loc>http://sway.github.com/</loc>
-        <lastmod>2011-12-30T14:39:17+01:00</lastmod>
+        <lastmod>2012-01-01T13:31:05+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://sway.github.com/</loc>
+        <lastmod>2012-01-01T13:45:29+01:00</lastmod>
     </url>
 </urlset>
