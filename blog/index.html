@@ -7,7 +7,7 @@
 	<meta name="author" content="honza">
 	
 	
-	<meta name="description" content="01.01.2012 &bull;&bull;&bull; A fresh start Farewell to 2011, welcome to 2012. One of the greatest years of my life has ended, so it&#8217;s time to &hellip;">
+	<meta name="description" content="01.01.2012 &bull;&bull;&bull; A fresh start Farewell to 2011, welcome to 2012. One of the greatest years of my life has ended, so it’s time to clear &hellip;">
 	
 
 	
@@ -102,7 +102,11 @@
 </header>
 
 
-	<div class="entry-content"><p>Farewell to 2011, welcome to 2012. One of the greatest years of my life has ended, so it&#8217;s time to clear the backlog and start again.</p>
+	<div class="entry-content"><p>Farewell to 2011, welcome to 2012. One of the greatest years of my life has ended, so it’s time to clear the backlog and start again.</p>
+
+<p>The last two weeks in Korea were quite demanding. I was so smart to leave all the stuff from the second quarter for the last moment, so I had to deal with three exams, two reports and a presentation in the last 10 days. No fun.</p>
+
+<p>Apart from school, however, it was quite nice. We had a closing dinner and party night with fellow exchange students, went for a dinner with Jin and Kayla, me and Marc did some souvenir shopping, I finally went for the ice cream with Kate, sent a package back home (well, to Holland) and managed to stuff all my stuff into the suitcase (26kg).</p>
 
 </div>
 	
@@ -113,133 +117,6 @@
 	
 	<footer class="meta">
 	posted on <time datetime="01.">01-01-2012</time> by <span class="author">Honza</span>
-	</footer>
-
-
-    </article>
-  
-  
-    <article>
-      
-<header>
-    
-		<h3 class="entry-title"><span class="time">23.12.2011</span> <span class="colorize">&bull;&bull;&bull;</span> <a href="/blog/2011/12/23/transition/">Transition</a></h3>
-	
-    
-    	
-         <div class="commentsnr">
-         	<a  href="/blog/2011/12/23/transition/#disqus_thread"></a>
-         </div>
-        
-    
-</header>
-
-
-	<div class="entry-content"><p>Four months ago I was sweating my ass off waiting for the delayed flight to Seoul. At that time, I had no idea whats gonna happen during the next four months. I was nervous and excited at the same time, but I was really looking forward to it, whatever the &#8220;it&#8221; meant at that time.</p>
-
-</div>
-	
-	
-	<div class="alignright">
-	  <a rel="full-article" href="/blog/2011/12/23/transition/">Read on &rarr;</a>
-	</div>
-	
-	<footer class="meta">
-	posted on <time datetime="23.">23-12-2011</time> by <span class="author">Honza</span>
-	</footer>
-
-
-    </article>
-  
-  
-    <article>
-      
-<header>
-    
-		<h3 class="entry-title"><span class="time">21.01.2010</span> <span class="colorize">&bull;&bull;&bull;</span> <a href="/blog/2010/01/21/im-the-IT-guy/">I&#8217;m the IT guy</a></h3>
-	
-    
-    	
-         <div class="commentsnr">
-         	<a  href="/blog/2010/01/21/im-the-IT-guy/#disqus_thread"></a>
-         </div>
-        
-    
-</header>
-
-
-	<div class="entry-content"><blockquote><p>&#8220;You are studying at FEL? Then you are good at computers, right?&#8221;</p>
-
-<p>&#8220;Well, yeah&#8221;</p>
-
-<p>&#8220;Cool, could you fix my computer? My minesweeper/freecell/internet/game/whatever is not working&#8221;</p></blockquote>
-
-<p>This is a conversation everyone that studies software engineering or other flavor of computer science receives at least once. For most people, computer science == &#8220;I fix computers&#8221;. <em>It&#8217;s not true!</em> Having CS background, I consider myself to be a little geeky. I had switched to Linux (Fedora 3) from Windows 2000 in 2004, and been using it until I bought my MacBook Pro in 2010. I love terminal, bash, AppleScript and task automation in general. I use LaTeX for almost everything, even for shopping lists. I&#8217;d rather spend 2 hours figuring something out than doing it other way. And yeah, I lauch at IT jokes. Like this one:</p>
-
-<blockquote><p>Our company is having a fancy dress party. Ah, there comes our CEO, in the mask of Zorro. There is the beautiful girl from accounting dressed as a nun and there comes our network administrator, wearing the 255.255.255.0 mask.</p></blockquote>
-
-<p>Funny, right:) Anyway, the true power of geeks is in most cases really appreciated when someone needs to fix something. During my stay here in Delft, I already had two opportunities to prove my &#8220;IT status&#8221;</p>
-
-<h4>Situation 1: DHCP server trouble</h4>
-
-<p>Our dorms are on a FTTD (fibre-to-the-dorms) network. For each &#8220;segment&#8221;, there is a HP ProCurve switch, which is then connected to central DNS + DHCP + PPPoE server. The PPPoE is autenticated agains university&#8217;s RADIUS servers, but that is not that relevant.</p>
-
-<p>Imagine this situation. One morning, I wake up, get my coffee, wake my MBP up and try to open the news. But it does not work, and, what more, the PPPoE tunnel is not &#8220;established&#8221;. Regular, non-IT poisoned person would try restarting their computer, but that won&#8217;t help at all. I did not. Instead, I checked the network settings, and I found out that I got my IP from some random DHCP server &#8212; it was from 192.168.0.0/24 network, which is far from the right one. I&#8217;ve remembered, that <a href="http://swarm.cz">diagon_swarm</a> had a similar problem. This happens when there is some stupid person, that wants to have Wi-Fi in his room, so he buys a router and plugs it in instead of his computer. Unfortunately, he uses the wrong port, so instead of using WAN, he plugs it in one of the LAN ports. That means, that when my laptop sent DHCPDISCOVER packet, the DHCP server in the router got it first, and quickly responded, giving me a wrong IP.</p>
-
-<p>How to fix that? It was quite easy &#8212; my stream of consciousness was like this: &#8220;He is stupid, so he probably has his default password on the router&#8221;. And indeed, after typing in the gateway address, I was able to log in with obvious admin:admin combination. Turning off the DHCP was a matter of few clicks, and I even resisted the temptation to change his master password. I&#8217;m such a nice guy.</p>
-
-<p>Well, my internet connection was running smoothly again, and it has been since then. I bet that guy does not even know he had the DHCP server turned on.</p>
-
-<h4>Situation 2: DNS fucked up</h4>
-
-<p>This has happened yesterday. In the evening,</p>
-</div>
-	
-	
-	<footer class="meta">
-	posted on <time datetime="21.">21-01-2010</time> by <span class="author">Honza</span>
-	</footer>
-
-
-    </article>
-  
-  
-    <article>
-      
-<header>
-    
-		<h3 class="entry-title"><span class="time">14.01.2010</span> <span class="colorize">&bull;&bull;&bull;</span> <a href="/blog/2010/01/14/my-new-home/">My new home!</a></h3>
-	
-    
-    	
-         <div class="commentsnr">
-         	<a  href="/blog/2010/01/14/my-new-home/#disqus_thread"></a>
-         </div>
-        
-    
-</header>
-
-
-	<div class="entry-content"><p>This is my new home. The virtual one, of course. It is no longer hosted on a standalone hosting, but I have decided to fully outsource all the service I use
-under my domain. It&#8217;s cheaper (as in free) and it fulfills all my needs.</p>
-
-<ol>
-<li>Sometimes I used my hosting to store temporary rubbish (screenshots etc.), but now we have cloud storage, there is no need for that. Now I use mainly
-<a href="http://dropbox.com/">Dropbox</a> (as for collaboration) or <a href="http://cloud.ly">cloud.app</a> for temporary stuff.</li>
-<li>E-mail and calendar is handled by Google Apps/iCloud (still have to decide which one to use based on my next phone). And that&#8217;s all&#8230;</li>
-<li>For blogging (or &#8220;blogging&#8221; in my case), I have used Posterous anyway. Now the site is stored on <a href="http://github.com">GitHub</a>, I can use jekyll, which is a static content generator, with Markdown and Liquid static support.</li>
-</ol>
-
-
-<p>All these services offer free versions, that are sufficient for my needs. When I realize, that two years ago I was thinking about getting a HostMonster
-account, it is a kind of a scaledown. But well, as we grow older, we need less stuff.</p>
-
-<p>Anyhow, I will try to keep it running here. I know my blogs usually die after few months, but let&#8217;s give this one a chance.</p>
-</div>
-	
-	
-	<footer class="meta">
-	posted on <time datetime="14.">14-01-2010</time> by <span class="author">Honza</span>
 	</footer>
 
 
