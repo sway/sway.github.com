@@ -1,8 +1,22 @@
----
-exclude: ['Makefile', 'README', '_design']
-markdown: maruku
-paginate: 5
-permalink: pretty
+# This is the default format. 
+# For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink: /:categories/:year/:month/:day/:title 
+auto: true
 pygments: true
-safe: true
+var:
+  archive_path: /archive.html
+  categories_path : /categories.html
+  tags_path : /tags.html
+  rss_path: /atom.xml
 
+production_url : http://egoistic.biz # or your custom domain name
+title : honza ustohal 
+
+author :
+  name : Honza Ustohal
+  email : honza@egoistic.biz
+  github : honzacz
+  twitter : swaycz
+  feedbuder : feedname
+
+exclude: .rbenv-version

@@ -1,36 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>{{ page.title }}</title>
-<link rel="stylesheet" href="/style.css">
-
-<link href='http://fonts.googleapis.com/css?family=Philosopher' rel='stylesheet' type='text/css'>
-
-</head>
-
-<body>
-<header>
-	<h1>My Egoistic</h1>
-	<h2>git commit -m "me, my ego and git"<h2>
-</header>
-<nav>
-	<ul>
-		<li class="{% if page.active == 'home' %} active {% endif %}">
-			<a href="/">Home</a>
-		</li>
-		<li class="{% if page.active == 'about' %} active {% endif %}">
-			<a href="/about.html">About</a>
-		</li>
-	</ul>
-</nav>
-
-{{ content }}
-
-<footer>
-powered by <span class="hilite">git</span> + <span class="hilite">jekyll</span> + <span class="hilite">github</span><br />
-&copy; 2011
-</footer>
-
-</body>
-</html>
-
+---
+---
+{% assign theme_asset_path = "/assets/themes/honza" %}
+{% include themes/honza/default.html %}
