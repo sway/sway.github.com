@@ -1,5 +1,6 @@
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
+<<<<<<< HEAD
 permalink: /blog/:categories/:year/:month/:day/:title 
 auto: true
 pygments: true
@@ -16,10 +17,6 @@ author :
 
 
 exclude: [".rbenv-version", "README.md", "Rakefile"]
-
-# Themes are encouraged to use these universal variables 
-# so be sure to set them if your theme uses them.
-#
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
 #
@@ -27,8 +24,6 @@ exclude: [".rbenv-version", "README.md", "Rakefile"]
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-
-# All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
   version : 0.1.0
@@ -103,3 +98,4 @@ JB :
   # Setting any helper's provider to 'custom' will bypass the helper code
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
+  # where [HELPER] is the name of the helper you are overriding.
