@@ -2,15 +2,29 @@
 layout: page
 title: my egoistic
 tagline: my life on github
-category: navigation
 ---
 
+{% if site.posts.size > 0 %}
+{% for post in site.posts %}
+{% if forloop.first %} 
+<span class="label success">Latest post</span>
 
-## Hi there!
+## [{{ post.title }}][title]
 
-It might have been just a mere curiosity, but somehow you managed to land on my blog. Well, blog would be quite a overstatement. There is nothing here yet, as I currently don't have that much time to adjust the Jekyll Bootstrap template to suit my needs. But I promise I will do it!
+{{ post.content }}
 
-Meanwhile, you can read my [blog](http://soulexchange.wordpress.com) from Korea, where I spend the last 4 months on a exchange. Some say there are some funny stories...
+[title]:{{ BASE_PATH }}{{ post.url }}
 
-Well, see you later!
+{% if site.posts | size > 1 %}
+<h2>Older posts</h2>
+<ul>
+{% endif %}
 
+{% else %}
+<li><span class="label notice">{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+{% endif %}
+{% endfor %}
+{% if site.posts | size > 1 %}
+</ul>
+{% endif %}
+{% endif %}
