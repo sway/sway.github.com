@@ -4,21 +4,15 @@ title: my egoistic
 tagline: my life on github
 ---
 
-{::options parse_block_html="true" /} 
-
 {% if site.posts.size > 0 %}
 {% for post in site.posts %}
 {% if forloop.first %} 
 <article >
 <span class="label date">{{ post.date | date_to_string }}</span>
 
-
-## [{{ post.title }}][title]
+<h2><a href="{{BASE_PATH}}{{ post.url }}">{{ post.title }}</a></h2>
 
 {{ post.content }}
-
-[title]:{{ BASE_PATH }}{{ post.url }}
-
 
 </article>
 {% if site.posts | size > 1 %}
