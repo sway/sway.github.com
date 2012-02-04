@@ -1,4 +1,5 @@
 _site/*
+assets/themes/honza/less/
 
 Thumbs.db
 .DS_Store
