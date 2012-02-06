@@ -1,4 +1,4 @@
-<li><a href="{{BASE_PATH}}/blog/">Blog</a></li>
+<li{% if page.url contains '/blog' %} class="active" {% endif %}><a href="{{BASE_PATH}}/blog/">Blog</a></li>
 {% for node in pages_list %}
   {% if group == null or group == node.group %}
   	{% if page.url == node.url %}
