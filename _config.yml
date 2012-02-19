@@ -10,13 +10,10 @@ title : honza ustohal
 author :
   name : Honza Ustohal
   email : honza@egoistic.biz
-  github : honzacz
-  twitter : swaycz
-  feedbuder : feedname
+  twitter: swaycz
+  github: sway
 
-
-exclude: [".rbenv-version", "README.md", "Rakefile"]
-# such as sitemap.txt 
+#such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
 #
 # If you have set a CNAME (pages.github.com) set your custom domain here.
@@ -27,7 +24,7 @@ exclude: [".rbenv-version", "README.md", "Rakefile"]
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
-  version : 0.2.0
+  version : 0.2.1
 
   # All links will be namespaced by BASE_PATH if defined.
   # Links in your website should always be prefixed with {{BASE_PATH}}
