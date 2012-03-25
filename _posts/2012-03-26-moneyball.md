@@ -26,4 +26,6 @@ The movie is based on a real story and on a book named [Moneyball](http://www.am
 
 For me the movie is definitely one of the best baseball movies I have ever seen and maybe even one of the best movies in general. I know that it is partially caused by the fact that baseball used to be a big part of my life for nearly 8 years, but the movie itself is well made as well. The context is realistic, the game footage is believable and the ratio between action and talking is quite alright. The in-game footage also made me reminiscent about some moments of my "career", such as my _"K streak"_ in one of the seasons or, on the other hand, the .400 BA and the highest RBI in another. not talking about the 3B into opposite with loaded bases in the semifinal of the Czech championship. Oh yeah!
 
+One of the final scenes when Billy comes to Fenway is then just the icing on the cake. Damn, I really wish I could go see a Red Sox vs. Yankees game there...__Let's go, Red Sox!__
+
 Anyway, if you like baseball, I can only recommend watching this movie -- I can guarantee you that you won't regret spending those two hours on it. Just make sure your girlfriend/boyfriend is on the same page.
