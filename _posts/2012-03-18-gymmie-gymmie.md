@@ -4,7 +4,6 @@ title: "Gymmie gymmie!"
 category: 
 tags: []
 ---
-{% include JB/setup %}
 
 > Kids, back in 2007, it seems like everyone belonged to  these silly things called gyms. The idea was you'd pay them lots of money to run around and lift heavy things.  Biggest rip-off in the world and yet people fell for it.  Including me.
 > <small>Ted Mosby, How I Met Your Mother S03E10</small>
@@ -13,16 +12,11 @@ This quote from my favorite TV show really expresses the whole idea behind "gyms
 
 About two weeks back I decided to stop turning into a vegetable and enroll into a nearby gym. Frankly, it is really hard to resist the advertisement, as most of them show pretty and fit girls between 25-30, smiling while working out on one of the high tech machines. Something like this.
 
-<ul class="thumbnails">
-	<li class="span2"></li>
-  <li class="span8">
-    <div class="thumbnail">
-      <img src="http://2.bp.blogspot.com/-O05L4H6h9Jw/Tq2eGk52n2I/AAAAAAAAAPw/lK0zzEnWIYc/s1600/Gym-girl.jpg" alt="The girl in the gym">
-      <h5>This girl definitely does not come to my gym</h5>
-      <p><small>source: http://rantingseriously.blogspot.com/</small></p>
-    </div>
-  </li> 
-</ul>
+<div class="thumb">
+<img src="http://2.bp.blogspot.com/-O05L4H6h9Jw/Tq2eGk52n2I/AAAAAAAAAPw/lK0zzEnWIYc/s1600/Gym-girl.jpg" alt="The girl in the gym">
+<h5>This girl definitely does not come to my gym</h5>
+<p><small>source: http://rantingseriously.blogspot.com/</small></p>
+</div>
 
 In reality, however, you find there all the different types of people except for this girl. There are those big and muscular and tan guys, that walk around in their tight shirts, fist bumping other guys and all the trainers in the gym. Then there are those "girls", that look like guys and are probably stronger than half of the guys there. Then there are people like me, minding their own business with their iPods and generally looking pretty. This group includes both guys and girls, and it represents around 1/3 of the people there. A special group are girlfriends of the aforementioned douchebags, that wear a ton of makeup and have big boobs. Sorry, there is not much more about them. Finally, there is the last group, comprising other types of people, that are not common enough to have their own category.
 

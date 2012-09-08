@@ -1,0 +1,143 @@
+@import "reset.less";
+
+@pink: rgba(255,20,147, 1.0);
+@tpink: rgba(255,20,147, 0.6);
+
+@blue: rgba(0,191,255, 1.0);
+@tblue: rgba(0,191,255, 0.5);
+
+
+html {
+	background: transparent url('/assets/img/body_bg.png') top left;
+	font-family: 'PT Sans', sans-serif;
+	color: #333;
+}	
+
+body {
+	width: 660px;
+	margin: 100px auto;
+}
+
+body[id=post] {
+	margin: 50px auto;
+	
+	article {
+		width: 600px;
+		padding: 5px 30px;
+		position: relative;
+		background-color: rgba(240,240,240,0.5);
+		border: 1px solid #eee;
+		border-radius: 5px;
+		
+		-webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.07);
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.07);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.07);
+    
+    blockquote {
+    	border-left: 5px solid @tblue;
+    	margin: 0;
+    	padding: 0 15px;
+    	color: #555;  
+    	
+    	small {
+    		display: block;    		
+    	}  	
+    	
+    	small:before {
+    		content: '-';
+    	}
+    }
+	}
+}
+
+h1 {
+	font-size: 300%;
+	text-align: center;
+	text-shadow: 2px 0 0 @tpink, -2px 0 0 @tblue;
+}
+
+a {
+	color: #666;
+}
+
+a:hover {
+	color: #333;
+	text-shadow: 1px 0 0 @tpink, -1px 0 0 @tblue;
+}
+
+hr {
+	color: #ddd;
+	background-color: #ddd;
+	height: 1px;
+	border: none;
+}
+
+section {
+	
+	& > p { 
+	text-align: center;
+	font-size: 130%;
+	margin-bottom: 30px;
+		
+		em {
+			color: hotpink;	
+			margin: 0 5px;
+			display: inline-block;
+		}	
+	}
+	
+	& > ul {
+		list-style: none;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		font-size: 120%;
+		
+		li {
+			display: inline-block;
+			padding: 0 5px 0 0;
+		}
+		
+		li:last-child:after {
+			content: '';
+		}
+		
+		li:after {
+			content: ' // ';
+			color: #00bfff;
+			padding: 0 0 0 10px;
+					
+			display: inline-block;
+		}	
+	}
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	color: #999;
+	font-size: 80%;
+	margin-top: 25px;
+}
+
+div.thumb {
+	text-align: center;
+	margin: 15px 0;
+		
+	h5 {
+		margin: 0;
+	}
+	
+	p {
+		margin: 0;
+		font-size: 80%;
+	}
+	
+	img.small {
+		max-width: 45%;
+	}
+}
+
+
+
