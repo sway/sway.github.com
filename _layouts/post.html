@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-    <meta name="author" content="{{ site.author.name }}">
+    <title>{{ page.title }} | honza ustohal</title>
+    <meta name="description" content="honza ustohal -- recent graduate // geek // technology aficionado // biker // golfer // food lover // design weirdo // and more">
+    <meta name="author" content="honza ustohal">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -19,11 +19,16 @@
   
   <article>
 	<h1>{{ page.title }}</h1>
+	<div class="meta"><a href="{{ post.id }}">{{ page.date | date_to_string }}</a></div>
 	{{ content }}
 	</article>
+	
+	<a class="back" href="/" title="Back home">
+	back
+	</a>
 
       <footer>
-			<p>&copy; {{ site.author.name }} 2012
+			<p>&copy; <a href="mailto:honza@egoistic.biz">honza ustohal</a> 2012</p>
       </footer>
 
     </div> 

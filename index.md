@@ -13,7 +13,7 @@ recent graduate
 *//* golfer
 *//* food lover
 *//* design weirdo
-*//* [more about me...](http://ustohal.eu)
+*//* [and more...](http://ustohal.eu)
 
 
 
