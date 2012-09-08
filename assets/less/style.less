@@ -28,6 +28,7 @@ body[id=post] {
 		background-color: rgba(240,240,240,0.5);
 		border: 1px solid #eee;
 		border-radius: 5px;
+		clear: both;
 		
 		-webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.07);
     -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.07);
@@ -53,11 +54,16 @@ body[id=post] {
 h1 {
 	font-size: 300%;
 	text-align: center;
+	
 	text-shadow: 2px 0 0 @tpink, -2px 0 0 @tblue;
 }
 
 a {
 	color: #666;
+}
+
+a:visited {
+	color: #444;
 }
 
 a:hover {
@@ -134,8 +140,71 @@ div.thumb {
 		font-size: 80%;
 	}
 	
+	img {
+		max-width: 100%;
+		-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+		
+	}
+	
+	img.medium {
+		max-width: 70%;
+	}
+	
 	img.small {
 		max-width: 45%;
+	}
+}
+
+div.doublethumb {
+	clear: both;
+
+	div.thumb {
+		width: 295px;
+		margin-right: 10px;
+		float: left;
+		
+		img {
+			width: 100%;			
+		}
+	}
+	
+	div.thumb:last-child {
+		margin-right: 0;
+	}
+	
+}
+
+div.doublethumb:after {
+		content: ' ';
+		clear: both;
+}
+
+@media(max-width: 670px) {
+	
+	html {
+		font-size: 22px;
+	}
+	
+	body, body[id=post] {
+		width: 100%;
+		min-width: 320px;
+		margin: 0 auto;
+
+		article {
+			margin: 0 auto;
+			width: auto;
+		}
+		
+		div.doublethumb {
+			div.thumb {
+				float: none;
+				width: 75%;
+				margin-right: auto;
+				margin-left: auto;
+			}
+		}
 	}
 }
 
