@@ -11,28 +11,28 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-		<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href="/assets/css/style.css" rel="stylesheet">
+	<link href="/favicon.ico" rel="icon">
   </head>
 
   <body id="post">      
   
-  <article>
-	<h1>{{ page.title }}</h1>
-	<div class="meta"><a href="{{ post.id }}">{{ page.date | date_to_string }}</a></div>
-	{{ content }}
+  	<article>
+		<h1>{{ page.title }}</h1>
+		<div class="meta"><a href="{{ post.id }}">{{ page.date | date_to_string }}</a></div>
+		{{ content }}
 	</article>
 	
-	<a class="back" href="/" title="Back home">
-	back
-	</a>
+	<div class="back">
+		<a href="/" title="Back home">back</a>
+	</div>
 
-      <footer>
-			<p>&copy; <a href="mailto:honza@egoistic.biz">honza ustohal</a> 2012</p>
-      </footer>
+    <footer>
+		<p>&copy; <a href="mailto:honza@egoistic.biz">honza ustohal</a> 2012</p>
+    </footer>
 
-    </div> 
-    	<script type="text/javascript">
+    <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-325532-4']);
   _gaq.push(['_trackPageview']);

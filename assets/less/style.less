@@ -53,7 +53,6 @@ body[id=post] {
     	}
     	
     	a:hover {
-//    		text-decoration: underline;
     		text-shadow: none; 
     		color: @tblue;
     		
@@ -222,17 +221,15 @@ div.doublethumb:after {
 		clear: both;
 }
 
-a.back {
-	display: block;
+div.back {
 	text-align: center;
 	margin-top: 10px;
 	font-size: 130%;
 	
-	&:after {
-		content: '//';
+	a:after {
+		content: ' //';
 		color: @pink;
-	}
-	
+	}	
 }
 
 @media(max-width: 670px) {

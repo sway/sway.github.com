@@ -11,14 +11,13 @@ recent graduate
 *//* technology aficionado
 *//* biker
 *//* golfer
+*//* musician
 *//* food lover
-*//* design weirdo
+*//* design enthusiast
 *//* [and more...](http://ustohal.eu)
 
-
-
 {% if site.posts.size > 0 %}
-I sometimes also write:
+Sometimes I also write:
 
 <ul>
 {% for post in site.posts %}
