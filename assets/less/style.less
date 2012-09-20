@@ -9,31 +9,36 @@
 
 html {
 	background: transparent url('/assets/img/body_bg.png') top left;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	color: #333;
 }	
 
 body {
 	width: 660px;
 	margin: 100px auto;
+	font-weight: 300;
+	text-align: justify;
+}
+
+strong {
+	font-weight: 700;
 }
 
 body[id=post] {
 	margin: 25px auto;
+	
+	//font-weight: 300;
 	
 	article {
 		width: 600px;
 		padding: 5px 30px;
 		position: relative;
 		background-color: rgba(240,240,240,0.5);
-		border: 1px solid #eee;
-		border-radius: 5px;
-		clear: both;
-		
-		-webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.07);
-   	 	-moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.07);
-    	box-shadow: 1px 1px 2px rgba(0,0,0,0.07);
-    
+		border: 1px solid #ddd;
+		border-bottom: none;
+		border-radius: 5px 5px 0 0;
+		clear: both;		
+   
 	    h1 {
 	    	margin-bottom: 0;
 	    }   
@@ -42,7 +47,7 @@ body[id=post] {
 	    	color: #ccc;
 	    	text-align: center;
 	    	font-size: 90%;
-	    	margin-bottom: 30px;
+	    	margin-bottom: 15px;
     	
 	    	a {
 	    		text-decoration: none;    		
@@ -78,6 +83,56 @@ body[id=post] {
 	    		content: '-';
 	    	}
 	    }
+		
+		hr {
+		width: 60%;
+		margin: 0 auto;
+		height: 1px;
+		color: #eee;
+		}
+		
+		&:after {
+		content: '\2219\2022\25C9\2022\2219';
+		display: block;
+		width: 100%;
+		color: #ccc;
+		text-align: center;
+		padding: 10px 0;
+		}		
+	}
+	
+	div.vcard {
+		width: 600px;
+		min-height: 107px;
+		background-color: #ddd;
+		border: 1px solid #ddd;
+		border-top: 1px solid @blue;
+		border-radius: 0 0 5px 5px;
+		color: #666;
+		padding: 10px 30px;
+		
+		
+		font-size: 90%;
+		
+		div.profile {
+			display: block;
+			float: left;
+			width: 100px;
+			height: 105px;
+			border: 1px solid #eee;
+			margin: 0 10px 0 0;
+			padding: 0;
+			overflow: hidden;				 
+		}
+		
+		h3 {
+			margin-top: 0;
+			color: #333;			
+		}
+		
+		p em {
+			color: @pink;
+		}			
 	}
 }
 
@@ -89,7 +144,7 @@ h1 {
 	text-shadow: 2px 0 0 @tpink, -2px 0 0 @tblue;
 }
 
-h2 {
+h2, h3 {
 	text-shadow: 1px 1px 0 @tpink, 2px 2px 0 @tblue;
 }
 
@@ -177,21 +232,25 @@ footer {
 div.thumb {
 	text-align: center;
 	margin: 15px 0;
-		
+	
+
 	h5 {
 		margin: 0;
 	}
 	
 	p {
 		margin: 0;
-		font-size: 80%;
+		font-size: 70%;
 	}
 	
 	img {
 		max-width: 100%;
 		-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
-    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);		
+    	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    	box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+		background: white;
+		border: 1px solid #ddd;
+		padding: 10px;			
 	}
 	
 	img.noshade {
@@ -200,8 +259,12 @@ div.thumb {
 	  box-shadow: none;
 	}
 	
+	img.large {
+		max-width: 75%;
+	}
+	
 	img.medium {
-		max-width: 70%;
+		max-width: 60%;
 	}
 	
 	img.small {
@@ -213,17 +276,37 @@ div.doublethumb {
 	clear: both;
 
 	div.thumb {
-		width: 295px;
+		width: 273px;
 		margin-right: 10px;
 		float: left;
-		
+		background: white;
+		border: 1px solid #ddd;
+		padding: 10px;
+		-webkit-transform: scale(1.0) rotate(-1deg);
+		-moz-transform: scale(1.0) rotate(-1deg);
+		-o-transform: scale(1.0) rotate(-1deg);
+		-ms-transform: scale(1.0) rotate(-1deg);
+		transform: scale(1.0) rotate(-1deg);
+				
 		img {
-			width: 100%;			
+			width: 100%;
+			background: transparent;
+			border: none;
+			padding: 0;		
+		}
+		
+		h5 {
+			margin: 5px 0 0;
 		}
 	}
 	
 	div.thumb:last-child {
 		margin-right: 0;
+		-webkit-transform: rotate(0.5deg);
+		-moz-transform: rotate(0.5deg);
+		-o-transform: rotate(0.5deg);
+		-ms-transform: rotate(0.5deg);
+		transform: rotate(0.5deg);		
 	}
 	
 }
@@ -258,12 +341,32 @@ div.back {
 			padding: 10px;
 		}
 		
+		div.vcard {
+			width: auto;
+			text-align: justify;
+			padding: 10px;
+		}
+		
 	
 		div.doublethumb div.thumb, div.thumb {
 			float: none;
-			width: 75%;	
+			width: 100%;	
 			max-width: 300px;			
-			margin: 0 auto 10px;	
+			margin: 0 auto 10px;
+			padding: 0;
+			background: transparent;
+			border: none;
+			-webkit-transform: rotate(0deg);
+			-moz-transform: rotate(0deg);
+			-o-transform: rotate(0deg);
+			-ms-transform: rotate(0deg);
+			transform: rotate(0deg);
+			
+			img {
+				background: transparent;
+				border: none;
+				padding: 0;				
+			}		
 			
 			img.small, img.medium {
 				max-width: 100%;
