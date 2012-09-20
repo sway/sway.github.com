@@ -179,19 +179,29 @@ section {
 	& > p { 
 	text-align: center;
 	font-size: 130%;
-	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-bottom: 0;
+	
+		
+		&:last-child {
+			margin-top: 0;
+		}
 		
 		em {
 			color: hotpink;	
-			margin: 0 5px;
+			margin: 0;
 			display: inline-block;
 		}	
+		
+		&:nth-child(2) em {
+			margin: 0 5px;
+		}
 	}
 	
 	& > ul {
 		list-style: none;
 		text-align: center;
-		margin: 0;
+		margin: 10px 0 0;
 		padding: 0;
 		width: 100%;
 		font-size: 120%;

@@ -17,7 +17,7 @@ recent graduate
 *//* [and more...](http://ustohal.eu)
 
 {% if site.posts.size > 0 %}
-Sometimes I also write:
+Sometimes I also _write_:
 
 <ul>
 {% for post in site.posts %}
@@ -26,3 +26,6 @@ Sometimes I also write:
 </ul>
 {% endif %}
 
+_tl;dr?_
+
+Follow me on [twitter](http://twitter.com/swaycz), then. I carefully craft each tweet to be informative, witty, and smart.
