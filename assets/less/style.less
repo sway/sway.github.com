@@ -6,6 +6,10 @@
 @blue: rgba(0,191,255, 1.0);
 @tblue: rgba(0,191,255, 0.5);
 
+.3d-shadow() {
+	text-shadow: 2px 0 0 @tpink, -2px 0 0 @tblue;
+}
+
 
 html {
 	background: transparent url('/assets/img/body_bg.png') top left;
@@ -141,7 +145,8 @@ h1 {
 	font-size: 300%;
 	text-align: center;	
 	//-webkit-text-shadow: 2px 0 0 @tpink, -2px 0 0 @tblue;
-	text-shadow: 2px 0 0 @tpink, -2px 0 0 @tblue;
+	//text-shadow: 2px 0 0 @tpink, -2px 0 0 @tblue;
+	.3d-shadow
 }
 
 h2, h3 {
@@ -191,6 +196,7 @@ section {
 			color: hotpink;	
 			margin: 0;
 			display: inline-block;
+			font-style: normal;
 		}	
 		
 		&:nth-child(2) em {
