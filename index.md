@@ -6,7 +6,7 @@ title: Honza Ustohal
 # honza ustohal
 
 
-recent graduate
+mobile product guy
 *//* geek
 *//* technology aficionado
 *//* biker
@@ -14,6 +14,7 @@ recent graduate
 *//* musician
 *//* food lover
 *//* design enthusiast
+*//* Berliner
 *//* [and more...](http://ustohal.eu)
 
 {% if site.posts.size > 0 %}
