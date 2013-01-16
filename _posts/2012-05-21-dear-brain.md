@@ -4,7 +4,6 @@ title: "Dear brain, F you!"
 category: 
 tags: []
 ---
-{% include JB/setup %}
 
 Dear brain,
 

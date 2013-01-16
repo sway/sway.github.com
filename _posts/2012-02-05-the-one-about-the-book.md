@@ -4,7 +4,6 @@ title: "The one about the book"
 category: 
 tags: [seoul exchange, latex, book]
 ---
-{% include JB/setup %}
 
 __tl; dr:__ *I wrote a book. It is about Korea. It is awesome! You can get it [here][book]*.
 

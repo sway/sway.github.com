@@ -4,7 +4,6 @@ title: "Here we go again!"
 category:  
 tags: [jekyll, github, development]
 ---
-{% include JB/setup %}
 
 > This land is not for sale. Some day, I hope to build on it.
 > <small>Dimitri Pietrovich</small>

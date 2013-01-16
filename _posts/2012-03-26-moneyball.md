@@ -4,7 +4,6 @@ title: "Moneyball"
 category: 
 tags: [movie, baseball, moneyball]
 ---
-{% include JB/setup %}
 
 > "How can you not be romantic about baseball?"
 > <small>Billy Beane</small>
