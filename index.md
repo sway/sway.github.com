@@ -6,7 +6,8 @@ title: Honza Ustohal
 # honza ustohal
 
 
-mobile product guy
+product guy
+*//* fresh Berliner
 *//* geek
 *//* technology aficionado
 *//* biker
@@ -14,7 +15,6 @@ mobile product guy
 *//* musician
 *//* food lover
 *//* design enthusiast
-*//* Berliner
 *//* [and more...](http://ustohal.eu)
 
 {% if site.posts.size > 0 %}
