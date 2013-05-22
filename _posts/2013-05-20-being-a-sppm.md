@@ -15,6 +15,7 @@ And there we go...working as a product manager has one disadvantage (just one!).
 <div class="thumb">
 <img src="http://www.actuationconsulting.com/blog/wp-content/uploads/2012/04/iStock_000012550740Small.jpg" class="medium" alt="Dude with a flowchart">
 <h5>A cheesy picture of a guy with a flowchart.</h5>
+<p>source: <a href="http://www.actuationconsulting.com/blog/">http://www.actuationconsulting.com/blog/</a></p>
 </div>
 
 First of all, product management is not project management (*d'oh!*). Project managers are like an omnipresent whip above the heads of developers, making sure deadlines and budget are met. Product guys, on the other hand, come long before the execution of the project and merely lay down the foundation for it in terms of ideas, business cases, and specifications, rather than directly steering the execution.
@@ -27,6 +28,7 @@ To use words of one my colleagues, we are like inventors. We take an idea that s
 
 <div class="thumb">
 <img src="http://cdn.memegenerator.net/instances/400x/37873939.jpg" class="medium" alt="Tough guy meme">
+<p>source: <a href="http://memegenerator.net/">http://memegenerator.net/</a></p>
 </div>
 
 Before joining SponsorPay I considered product management as a just bridge between engineering and business, but now I know it is so much more. If there was one word that should have been included in every definition of product management, it would definitely be **versatility**. Even the notions of *"sitting on multiple chairs at the same time"* or *"wearing multiple hats"* do not fully express the wide range of activities a product manager has to be capable of doing. It's like sitting on multiple chairs at the same time while wearing six different hats, juggling running chainsaws and singing and dancing Macarena. I bet your imagination is now going crazy...*Hey, Macarena!* 
