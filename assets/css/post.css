@@ -20,7 +20,7 @@ article {
 	padding-bottom: 10%;			
 }
 
-article p, article blockquote {
+article p, article blockquote, article ul {
 	color: rgba(0, 0, 0, 0.7);
 	font-size: 1.3em;
 	line-height: 1.8em;
@@ -185,28 +185,6 @@ div.doublethumb div.thumb {
 	float: left;
 }
 
-ul {
-	list-style: none;
-	color: rgba(255,255,255, 0.5);
-	margin: 0 auto;
-	padding: 0;
-	text-align: left;
-	text-transform: uppercase;
-	font-size: 2.5em;
-}
-
-ul li strong {
-	color: rgba(255,255,255, 0.7);
-	font-weight: 100;
-	border-bottom: 1px dotted rgba(255,255,255, 0.5);
-}
-
-ul li:before {
-	content: '//';
-	color: rgba(255,255,255, 0.3);
-	margin-right: 0.2em;
-}
-
 div.thumb {
 text-align: center;
 }
@@ -241,6 +219,10 @@ text-align: center;
 	}
 	
 	article header h1 {
+		font-weight: 300;
+	}
+	
+	h2 {
 		font-weight: 300;
 	}
 	

@@ -21,8 +21,7 @@ layout: layout-default
 </article>
 
 <article id="me" class="placeholder">
-	<h1>Please allow me to introduce myself, I'm a man of wealth and taste</h1>
-	<span>-Rolling Stones</span>
+	<h1>Please allow me to introduce myself, I'm a man of wealth and taste <span>//&nbsp;Rolling Stones</span></h1>
 </article>	
 
 <article id="contact">
@@ -43,8 +42,7 @@ layout: layout-default
 </article>
 
 <article id="berlin" class="placeholder">
-	<h1>Guten Morgen, Berlin, Du kannst so h&auml;sslich sein, so dreckig und grau</h1>
-	<span>-Peter Fox</span>		
+	<h1>Guten Morgen, Berlin, Du kannst so h&auml;sslich sein, so dreckig und grau <span>//&nbsp;Peter Fox</span></h1>		
 </article>	
 
 {% if site.posts.size > 0 %}
