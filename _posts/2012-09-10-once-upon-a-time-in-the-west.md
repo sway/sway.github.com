@@ -9,7 +9,7 @@ As you probably know, after finishing my bachelor in 2010 I did not continue in 
 Now that I am graduated I thought it would be the best time to summarize what these two years were about and why do I think it was a good idea.
 
 <div class="thumb">
-	<img src="http://metu.tudelft.nl/logos/TU_d_line.png" class="small noshade" alt="TU Delft">
+	<img src="http://www.ewi.tudelft.nl/fileadmin/Faculteit/EWI/ImagesAfdelingen/Electrical_Sustainable_Energy/PVMD/TU_Delft_logo.png" class="small noshade" alt="TU Delft">
 </div>
 
 ## The country
@@ -20,13 +20,6 @@ I would say that my relationship to Holland developed in three phases. First pha
 That was the first few months. After that, the situation stabilized, as I got used to all the good and bad aspects of living there. Yes, it is great that everybody speaks English, but at the same time it is really difficult to learn Dutch and talk to people, because as soon as they hear that you have a foreign accent, they switch to English. It is just more convenient for them. You also have to get used to people being mean to you. They say, that it's a cultural thing for them, and that they are just direct. Fine, whatever, I can deal with it, but since they say they are international and friendly, they should also think about adjusting to other cultures, not just expecting everybody to adjust to theirs. Sometimes I suspect the whole "being direct" thing is just something they made up to be able to be mean to foreigners. Who knows. And yes, both the food and the weather are terrible.
 
 The main idea behind Dutch _cuisine_ is "Take something gross and deep fry the shit out of it". Take, for example, a krokette. Mashed meat of questionable quality, mixed with flour and covered in breadcrumbs. All of that deep frozen and ready to be deep fried. 0.90&euro;, please. The same goes for bitterballen, frikandelle, or kaas souffle. But you get used to it over time.
-
-<div class="thumb">
-	<img src="http://www.dutchfoodblog.com/wp-content/uploads/2011/12/kroket.jpg" class="medium" alt="TU Delft library">
-	<h5>Kroketten on a spongy bread with mustard, how typical</h5>
-	<p>These ones, however, look much better than the average krokette you get.</p>
-	<p>source: <a href="http://www.dutchfoodblog.com/2011/12/20/croquette-kroket/">Dutch Food Blog</a></p>
-</div>
 
 The same goes for the weather. The summers are usually hot, but full of rain. There are like 3 sunny days every year, and if you miss them, you are A-screwed. Ok, 3 might be a little underrated, but it is not more than 10. Or 20. The rest of the year is just grey sky, a lot of wind, and rain. And wind. And rain. And wind. Did I tell you that it is really windy and it rains a lot?
 

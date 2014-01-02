@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} | honza ustohal</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="honza ustohal -- product guy // fresh Berliner // geek // technology aficionado // biker // golfer // musician // food lover // design enthusiast // and much more">
+    <meta name="author" content="honza ustohal">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+		
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,300italic' rel='stylesheet' type='text/css'>
+	<link href="/assets/css/style.css" rel="stylesheet">
+	<link href="/favicon.ico" rel="icon">
+  </head>
+
+  <body id="post"> 
+  	<article id="{{ page.id | split:'/' | last }}">
+		<h1>{{ page.title }}</h1>
+		<div class="meta"><a href="{{ page.id }}">{{ page.date | date_to_string }}</a></div>
+		<hr>
+		{{ content }}	
+	</article>
+	<div class="vcard">
+		<div class="profile">
+			<img src="/assets/img/profile.jpg" alt="Honza Ustohal"> 
+		</div>
+	<h3>Honza Ustohal</h3>
+	<p>product guy <em>//</em> fresh Berliner <em>//</em> geek <em>//</em> technology aficionado <em>//</em> biker <em>//</em> golfer <em>//</em> musician <em>//</em> food lover <em>//</em> design enthusiast <em>//</em> <a href="http://ustohal.eu">and more...</a></p>	
+	</div>
+	
+	<div class="back">
+		<a href="/" title="Back home">back</a>
+	</div>
+
+    <footer>
+		<p>&copy; <a href="mailto:honza@egoistic.biz">honza ustohal</a> 2013</p>
+    </footer>
+
+    <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-325532-4']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+

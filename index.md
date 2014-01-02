@@ -1,32 +1,59 @@
 ---
-layout: default
 title: Honza Ustohal
+layout: layout-default
 ---
 
-# honza ustohal
+<article id="about">
+	<h1>
+		honza ustohal
+	</h1>
+		<ul>
+			<li>product manager</li>
+			<li>geek and technology aficionado</li>
+			<li>musician</li>
+			<li>biker and cyclist</li>
+			<li>food lover</li>
+			<li>design and art enthusiast</li>				
+		</ul>				
+	<footer>
+		<a class="next" href="#contact">V</a>
+	</footer>	
+</article>
 
+<article id="me" class="placeholder">
+	<h1>Please allow me to introduce myself, I'm a man of wealth and taste</h1>
+	<span>-Rolling Stones</span>
+</article>	
 
-product guy
-*//* fresh Berliner
-*//* geek
-*//* technology aficionado
-*//* biker
-*//* golfer
-*//* musician
-*//* food lover
-*//* design enthusiast
-*//* [and more...](http://ustohal.eu)
+<article id="contact">
+	<h1>Where to find me?</h1>
+		<ul>
+			<li>In <strong>Berlin</strong></li>
+			<li>twitter: <strong><a href="https://twitter.com/swaycz">@swaycz</a></strong></li>
+			<li>facebook: <strong><a href="https://facebook.com/honza.ustohal">honza.ustohal</a></strong></li>
+			<li>instagram: <strong><a href="https://instagram.com/honzacz">honzacz</a></strong></li>
+			<li>last.fm: <strong><a href="https://last.fm/user/swaycz">swaycz</a></strong></li>
+			<li>github: <strong><a href="https://github.com/sway">sway</a></strong></li>
+			<li>I sometimes also write <strong><a href="/#blog">here</a></strong></li>
+		</ul>	
+				
+		<footer>
+			<a class="next" href="#blog">V</a>
+		</footer>		
+</article>
+
+<article id="berlin" class="placeholder">
+	<h1>Guten Morgen, Berlin, Du kannst so h&auml;sslich sein, so dreckig und grau</h1>
+	<span>-Peter Fox</span>		
+</article>	
 
 {% if site.posts.size > 0 %}
-Sometimes I also _write_:
-
-<ul>
+<article id="blog">
+	<h1>I write stuff:</h1>
+	<ul>
 {% for post in site.posts %}
-<li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+	<li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
-</ul>
+	</ul>
+</article>
 {% endif %}
-
-_tl;dr?_
-
-Follow me on [twitter](http://twitter.com/swaycz), then. I carefully craft each tweet to be informative, witty, and smart.

@@ -5,8 +5,7 @@ category:
 tags: []
 ---
 
-> Kids, back in 2007, it seems like everyone belonged to  these silly things called gyms. The idea was you'd pay them lots of money to run around and lift heavy things.  Biggest rip-off in the world and yet people fell for it.  Including me.
-> <small>Ted Mosby, How I Met Your Mother S03E10</small>
+<blockquote>Kids, back in 2007, it seems like everyone belonged to  these silly things called gyms. The idea was you'd pay them lots of money to run around and lift heavy things. Biggest rip-off in the world and yet people fell for it.  Including me.</blockquote>
 
 This quote from my favorite TV show really expresses the whole idea behind "gyms". Or does it?
 
