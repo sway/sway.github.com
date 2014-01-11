@@ -179,7 +179,6 @@ article#blog ul {
 article#blog ul a {
 	text-decoration: none;
 	color: rgba(255,255,255, 0.7);
-
 	border-bottom: 1px dotted rgba(255,255,255, 0.5);
 }
 
@@ -217,7 +216,7 @@ article#blog ul a:active {
 @media(max-width: 750px) {
 
 	html, body {
-		font-size: 10px;
+		font-size: 9px;
 	}
 
 }
@@ -235,7 +234,7 @@ article#blog ul a:active {
 		padding: 0;
 		margin: 0;
 		font-family: 'Lato', sans-serif;
-		font-size: 6px;
+		font-size: 4px;
 	}
 	
 	article {
@@ -249,7 +248,8 @@ article#blog ul a:active {
 	}
 	
 	article#blog {
-		height: 100%;
+		height: auto;
+		min-height: 100%;
 	}
 	
 	article.placeholder {

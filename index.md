@@ -1,6 +1,6 @@
 ---
 title: Honza Ustohal
-layout: layout-default
+layout: default
 ---
 
 <article id="about">
@@ -13,7 +13,7 @@ layout: layout-default
 			<li>musician</li>
 			<li>biker and cyclist</li>
 			<li>food lover</li>
-			<li>design and art enthusiast</li>				
+			<li>design and art enthusiast</li>
 		</ul>				
 	<footer>
 		<a class="next" href="#contact">V</a>
@@ -50,7 +50,7 @@ layout: layout-default
 	<h1>I write stuff:</h1>
 	<ul>
 {% for post in site.posts %}
-	<li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+	<li>{{ post.date | date: '%m/%Y' }} // <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 	</ul>
 </article>
