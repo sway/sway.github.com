@@ -3,47 +3,64 @@ title: Honza Ustohal
 layout: default
 ---
 
-<article id="about">
-	<h1>
-		honza ustohal
-	</h1>
-		<ul>
-			<li>product manager</li>
-			<li>geek and technology aficionado</li>
-			<li>musician</li>
-			<li>biker and cyclist</li>
-			<li>food lover</li>
-			<li>design and art enthusiast</li>
-		</ul>				
+<section id="intro">
+	<article>
+		<div id="portrait">&nbsp;</div>
+		<h1>
+		hi! I am <strong>honza</strong>
+		</h1>
+	</article>
 	<footer>
-		<a class="next" href="#contact">V</a>
-	</footer>	
-</article>
+		<a class="next" href="#about">▽</a>
+	</footer>
+</section>
 
-<article id="me" class="placeholder">
-	<h1>Please allow me to introduce myself, I'm a man of wealth and taste <span>//&nbsp;Rolling Stones</span></h1>
-</article>	
+<section id="about">
+	<article>
+		<h1>who am I?</h1>
+			<ul>
+				<li>product manager at <a href="http://fyber.com/">Fyber</a></li>
+				<li>geek and technology aficionado</li>
+				<li>musician</li>
+				<li>biker and cyclist</li>
+				<li>food lover</li>
+				<li>whiskey drinker</li>
+				<li>design and art enthusiast</li>
+			</ul>
+	</article>
+	<footer>
+	<a class="next" href="#contact">▽</a>
+	</footer>
+</section>
 
-<article id="contact">
-	<h1>Where to find me?</h1>
+<section id="me" class="placeholder">
+	<article>
+		<h1>Please allow me to introduce myself, I'm a man of wealth and taste <span>//&nbsp;Rolling Stones</span></h1>
+	</article>
+</section>
+
+<section id="contact">
+<article>
+	<h1>where to find me?</h1>
 		<ul>
 			<li>In <strong>Berlin</strong></li>
 			<li>twitter: <strong><a href="https://twitter.com/swaycz">@swaycz</a></strong></li>
 			<li>facebook: <strong><a href="https://facebook.com/honza.ustohal">honza.ustohal</a></strong></li>
 			<li>instagram: <strong><a href="https://instagram.com/honzacz">honzacz</a></strong></li>
+			<li>medium: <strong><a href="https://medium.com/@swaycz">swaycz</a></strong></li>
 			<li>last.fm: <strong><a href="https://last.fm/user/swaycz">swaycz</a></strong></li>
 			<li>github: <strong><a href="https://github.com/sway">sway</a></strong></li>
-			<li>I sometimes also write <strong><a href="/#blog">here</a></strong></li>
-		</ul>	
-				
-		<footer>
-			<a class="next" href="#blog">V</a>
-		</footer>		
+		</ul>
 </article>
+</section>
 
-<article id="berlin" class="placeholder">
-	<h1>Guten Morgen, Berlin, Du kannst so h&auml;sslich sein, so dreckig und grau <span>//&nbsp;Peter Fox</span></h1>		
-</article>	
+<section id="berlin" class="placeholder">
+	<article>
+		<h1>Guten Morgen, Berlin, Du kannst so h&auml;sslich sein, so dreckig und grau <span>//&nbsp;Peter Fox</span></h1>
+	</article>
+</section>
+
+{%comment%}
 
 {% if site.posts.size > 0 %}
 <article id="blog">
@@ -55,3 +72,5 @@ layout: default
 	</ul>
 </article>
 {% endif %}
+
+{%endcomment%}
