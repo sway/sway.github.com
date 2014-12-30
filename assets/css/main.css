@@ -230,6 +230,18 @@ section#blog ul a:active {
     }
 }
 
+@media screen and (max-width: 1200px) and (orientation: landscape) {
+    section footer {
+        text-align: right;
+    }
+
+    section footer a {
+        -webkit-border-top-left-radius: 10px;
+        -moz-border-radius-topleft: 10px;
+        border-top-left-radius: 10px;
+    }
+}
+
 
 @media screen and (max-width: 600px) {
     html,body {
@@ -239,5 +251,17 @@ section#blog ul a:active {
     section {
         padding: 0 5%;
         background-attachment: scroll !important;
+    }
+}
+
+@media screen and (max-width: 600px) and (orientation: landscape) {
+    section footer {
+        text-align: right;
+    }
+
+    section footer a {
+        -webkit-border-top-left-radius: 10px;
+        -moz-border-radius-topleft: 10px;
+        border-top-left-radius: 10px;
     }
 }
