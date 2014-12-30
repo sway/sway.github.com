@@ -20,7 +20,8 @@ layout: default
 		<h1>who am I?</h1>
 			<ul>
 				<li>product manager at <a href="http://fyber.com/">Fyber</a></li>
-				<li>geek and technology aficionado</li>
+				<li>lovable geek</li>
+<li>technology aficionado</li>
 				<li>musician</li>
 				<li>biker and cyclist</li>
 				<li>food lover</li>
