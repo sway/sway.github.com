@@ -61,14 +61,6 @@ layout: default
 	</article>
 </section>
 
-<section id="medium">
-	<article style="text-align: center">
-		<script async src="https://static.medium.com/embed.js"></script>
-		<a class="m-profile" href="https://medium.com/@swaycz" data-collapsed="true" data-width="50%">Honza</a>		
-	</article>
-</section>
-
-
 {%comment%}
 
 {% if site.posts.size > 0 %}
