@@ -57,7 +57,7 @@ section.bottom {
 }
 
 section#intro {
-    background-image: url('/assets/img/berlin.jpg');
+    background-image: url('/assets/img/berlin_opt.jpg');
     background-color: transparent;
     background-position:  50% 50%;
     background-attachment: fixed;
@@ -110,11 +110,11 @@ section.placeholder h1 span {
 }
 
 section.placeholder#me {
-	background-image: url('/assets/img/photo.jpg');
+	background-image: url('/assets/img/photo_opt.jpg');
 }
 
 section.placeholder#berlin {
-	background-image: url('/assets/img/berlin.jpg');
+	background-image: url('/assets/img/berlin_opt.jpg');
 }
 
 section h1 {
