@@ -47,7 +47,7 @@ layout: default
 			<li>In <strong>Berlin</strong></li>
 			<li>twitter: <strong><a href="https://twitter.com/swaycz">@swaycz</a></strong></li>
 			<li>facebook: <strong><a href="https://facebook.com/honza.ustohal">honza.ustohal</a></strong></li>
-			<li>instagram: <strong><a href="https://instagram.com/honzacz">honzacz</a></strong></li>
+			<li>instagram: <strong><a href="https://instagram.com/itshonza">itshonza</a></strong></li>
 			<li>medium: <strong><a href="https://medium.com/@swaycz">swaycz</a></strong></li>
 			<li>last.fm: <strong><a href="https://last.fm/user/swaycz">swaycz</a></strong></li>
 			<li>github: <strong><a href="https://github.com/sway">sway</a></strong></li>
