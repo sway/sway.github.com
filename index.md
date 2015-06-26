@@ -21,7 +21,7 @@ layout: default
 			<ul>
 				<li>product manager at <a href="http://fyber.com/">Fyber</a></li>
 				<li>lovable geek</li>
-<li>technology aficionado</li>
+				<li>technology aficionado</li>
 				<li>musician</li>
 				<li>biker and cyclist</li>
 				<li>food lover</li>
@@ -36,7 +36,7 @@ layout: default
 
 <section id="me" class="placeholder">
 	<article>
-		<h1>Please allow me to introduce myself, I'm a man of wealth and taste <span>//&nbsp;Rolling Stones</span></h1>
+		<h1>We're definitely going to hell but we'll have all the best stores to tell. <span>//&nbsp;Frank Turner</span></h1>
 	</article>
 </section>
 
