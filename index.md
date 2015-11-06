@@ -36,7 +36,7 @@ layout: default
 
 <section id="me" class="placeholder">
 	<article>
-		<h1>We're definitely going to hell but we'll have all the best stores to tell. <span>//&nbsp;Frank Turner</span></h1>
+		<h1>We're definitely going to hell but we'll have all the best stories to tell. <span>//&nbsp;Frank Turner</span></h1>
 	</article>
 </section>
 
@@ -44,7 +44,7 @@ layout: default
 <article>
 	<h1>where to find me?</h1>
 		<ul>
-			<li>In <strong>Berlin</strong></li>
+			<li>In <strong>Berlin</strong> &#10084;</li>
 			<li>twitter: <strong><a href="https://twitter.com/swaycz">@swaycz</a></strong></li>
 			<li>facebook: <strong><a href="https://facebook.com/honza.ustohal">honza.ustohal</a></strong></li>
 			<li>instagram: <strong><a href="https://instagram.com/itshonza">itshonza</a></strong></li>
