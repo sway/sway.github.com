@@ -1,10 +1,8 @@
 # This is the default format.
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:year/:month/:day/:categories/:title/
-highlighter: pygments
-markdown: kramdown
 
-production_url : http://egoistic.biz
+production_url : http://ustohal.eu
 title : honza ustohal
 
 author :
