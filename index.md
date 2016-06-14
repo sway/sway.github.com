@@ -1,5 +1,5 @@
 ---
-title: Honza Ustohal
+title: Jan Ustohal
 layout: default
 ---
 
@@ -19,13 +19,13 @@ layout: default
 	<article>
 		<h1>who am I?</h1>
 			<ul>
-				<li>product manager at <a href="http://fyber.com/">Fyber</a></li>
+				<li>product guy at <a href="http://fyber.com/">Fyber</a></li>
 				<li>lovable geek</li>
-				<li>technology aficionado</li>
-				<li>musician</li>
+				<li>technology fan</li>
+				<li>musician and music lover</li>
 				<li>biker and cyclist</li>
 				<li>food lover</li>
-				<li>whiskey drinker</li>
+				<li>scotch drinker</li>
 				<li>design and art enthusiast</li>
 			</ul>
 	</article>
@@ -49,7 +49,6 @@ layout: default
 			<li>facebook: <strong><a href="https://facebook.com/honza.ustohal">honza.ustohal</a></strong></li>
 			<li>instagram: <strong><a href="https://instagram.com/itshonza">itshonza</a></strong></li>
 			<li>medium: <strong><a href="https://medium.com/@swaycz">swaycz</a></strong></li>
-			<li>last.fm: <strong><a href="https://last.fm/user/swaycz">swaycz</a></strong></li>
 			<li>github: <strong><a href="https://github.com/sway">sway</a></strong></li>
 		</ul>
 </article>
@@ -60,18 +59,3 @@ layout: default
 		<h1>Guten Morgen, Berlin, Du kannst so h&auml;sslich sein, so dreckig und grau <span>//&nbsp;Peter Fox</span></h1>
 	</article>
 </section>
-
-{%comment%}
-
-{% if site.posts.size > 0 %}
-<article id="blog">
-	<h1>I write stuff:</h1>
-	<ul>
-{% for post in site.posts %}
-	<li>{{ post.date | date: '%m/%Y' }} // <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-	</ul>
-</article>
-{% endif %}
-
-{%endcomment%}
