@@ -19,7 +19,7 @@ layout: default
 	<article>
 		<h1>who am I?</h1>
 			<ul>
-				<li>product guy at <a href="http://fyber.com/">Fyber</a></li>
+				<li>product guy at <a href="http://marleyspoon.com/">Marley Spoon</a></li>
 				<li>lovable geek</li>
 				<li>technology fan</li>
 				<li>musician and music lover</li>
