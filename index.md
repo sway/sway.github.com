@@ -45,10 +45,10 @@ layout: default
 	<h1>where to find me?</h1>
 		<ul>
 			<li>In <strong>Berlin</strong> &#10084;</li>
-			<li>twitter: <strong><a href="https://twitter.com/swaycz">@swaycz</a></strong></li>
+			<li>twitter: <strong><a href="https://twitter.com/its_honza">@its_honza</a></strong></li>
 			<li>facebook: <strong><a href="https://facebook.com/honza.ustohal">honza.ustohal</a></strong></li>
 			<li>instagram: <strong><a href="https://instagram.com/itshonza">itshonza</a></strong></li>
-			<li>medium: <strong><a href="https://medium.com/@swaycz">swaycz</a></strong></li>
+			<li>medium: <strong><a href="https://medium.com/@itshonza">itshonza</a></strong></li>
 			<li>github: <strong><a href="https://github.com/sway">sway</a></strong></li>
 		</ul>
 </article>
